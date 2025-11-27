@@ -8,6 +8,8 @@ A arquitetura do projeto sugere uma separação clara de responsabilidades, com 
 
 O projeto inclui um `Dockerfile`, indicando que ele foi concebido para ser facilmente conteinerizado e implantado em ambientes de produção que utilizam Docker.
 
+Link do postman para testes: https://web.postman.co/f1afd020-1a9d-4d74-8898-5d590ff989b0
+
 ## Tecnologias Utilizadas
 
 A seguir, estão as principais tecnologias e bibliotecas utilizadas neste projeto, conforme o arquivo `package.json`:
