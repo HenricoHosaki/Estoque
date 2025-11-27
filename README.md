@@ -100,7 +100,9 @@ Para executar o contêiner (assumindo que o banco de dados está acessível):
 docker run -p 3000:3000 miniprojeto-estoque
 ```
 
-Para executar as rotas criadas no projeto, utilize o link do postman no começo do README, o usuário deve registrar primeiro um user e uma organization, e em seguida logar o usuário. Copie o token que foi gerado, e coloque no "Headers do projeto",
+Para executar as rotas criadas no projeto, utilize o link do postman no começo do README, o usuário deve registrar na rota Register primeiro um user e uma organization em formato JSON, para isso, selecione o campo Body, clique na opção Raw e ao lado haverá um campo para selecionar o formato, escolha JSON, e em seguida, entrei na rota Login para logar o usuário. Copie o token que foi gerado, e coloque no "Headers" do projeto,
 insira uma Key chamada Authorization e em Value coloque o token, liberando a requisição da rota.
+
+
 **Licença:** ISC
 
